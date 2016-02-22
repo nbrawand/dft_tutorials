@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --job-name = h2o
+#SBATCH --account = meng23000
+#SBATCH --time = 00:05:00
+#SBATCH --nodes = 1
+#SBATCH --ntasks-per-node = 16
+#
+# submit job using:
+#
+# sbatch runqe
+#
+
+module load espresso
+
+pw.x < pw.in >& pw.out
