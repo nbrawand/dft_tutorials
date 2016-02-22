@@ -1,0 +1,6 @@
+&bands 
+    prefix  = 'scf'
+    outdir = 'out'
+    filband = 'si'
+    lsym = .true.
+ /
