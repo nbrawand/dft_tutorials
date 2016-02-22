@@ -12,15 +12,15 @@
     ntyp = 2
     ecutwfc = 85.d0
     nbnd = 12
+    assume_isolated = 'mp'
 /
 &ELECTRONS
     diago_full_acc = .true.
-    assume_isolated = 'mp'
     conv_thr = 1.d-8
 /
 ATOMIC_SPECIES
 H 1.00794 H.pbe-mt_fhi.UPF
-O 15.9994 O.pde-mt_fhi.UPF
+O 15.9994 O.pbe-mt_fhi.UPF
 ATOMIC_POSITIONS {angstrom}
 O 6.0 6.0    6.1173
 H 6.0 6.7572 5.5308
