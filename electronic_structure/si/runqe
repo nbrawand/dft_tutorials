@@ -10,6 +10,7 @@
 # sbatch runqe
 #
 
+module unload espresso
 module load espresso/5.1
 
 pw.x < pw_scf.in >& pw_scf.out
