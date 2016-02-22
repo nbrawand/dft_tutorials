@@ -9,7 +9,7 @@
     celldm(1) = 10.20, 
     nat =  2, 
     ntyp = 1,
-    ecutwfc = 20.0,
+    ecutwfc = 30.0,
     nbnd = 8
  /
  &electrons
